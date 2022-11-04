@@ -1,0 +1,4 @@
+username trainee
+password trainee
+url https://www.facebook.com
+browser chrome
