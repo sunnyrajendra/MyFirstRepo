@@ -25,5 +25,6 @@ public class LoginToFacebookApp extends BaseClass{
 		Assert.fail();
 		driver.findElement(By.xpath("//button[@name='login']")).click();
 		sa.assertAll();
+		//end of the test case
 	}	
 }
