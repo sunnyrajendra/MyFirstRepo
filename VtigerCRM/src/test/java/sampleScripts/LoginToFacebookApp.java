@@ -15,10 +15,11 @@ public class LoginToFacebookApp extends BaseClass{
 	@Test
 	public void loginToFacebookApp() throws InterruptedException
 	{
+		//welcome to facebook
 		String title = driver.getTitle();
 		System.out.println(title);
 		SoftAssert sa = new SoftAssert();
-		sa.assertEquals(title,"Facebook – log in or sign up");
+		sa.assertEquals(title,"Facebook â€“ log in or sign up");
 		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("bjvcwdjvcjvjc");
 		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("3423412");
 		Assert.fail();
