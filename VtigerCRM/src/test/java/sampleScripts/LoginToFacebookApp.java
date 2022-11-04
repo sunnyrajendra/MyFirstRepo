@@ -15,7 +15,7 @@ public class LoginToFacebookApp extends BaseClass{
 	@Test
 	public void loginToFacebookApp() throws InterruptedException
 	{
-		//welcome to facebook application
+		//welcome to facebook app
 		String title = driver.getTitle();
 		System.out.println(title);
 		SoftAssert sa = new SoftAssert();
